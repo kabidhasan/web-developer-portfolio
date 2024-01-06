@@ -4,6 +4,9 @@
 
 header{
     background: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
 }
 
 nav{
@@ -60,6 +63,8 @@ nav a{
     padding: 15px 35px;
 }
 
+
+/* banner styles */
 header .banner{
     padding-left: 230px;
     display: flex;
@@ -77,18 +82,22 @@ header .banner{
     width: 584px;
     height: 676px;
     flex-shrink: 0;
+    margin: 0px;
 }
 
 .banner-greetings{
     color: var(--Dark-02, #474747);
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 0px;
 }
 
 .banner-title{
     color: var(--Dark-01, #181818);
     font-size: 85px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
 
 .banner p{
@@ -96,8 +105,40 @@ header .banner{
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
+        width: 585px;
+        margin-top: 0px;
         /* 166.667% */
 }
 
 
 
+/*main section styles*/
+
+section{
+    margin: 130px 230px 0px 230px;
+}
+
+/*about section styles*/
+
+.about{
+    background: #FFF8F3;
+    max-width: 1140px;
+    padding: 130px;
+    border-radius: 10px;
+}
+
+.section-title{
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;       
+}
+
+.section-description{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+        
+}
