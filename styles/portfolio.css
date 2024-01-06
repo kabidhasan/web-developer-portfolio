@@ -19,7 +19,7 @@ nav > ul {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-right: 230px;
+  padding-right: 200px;
 }
 nav li {
   margin-left: 51px;
@@ -247,20 +247,80 @@ main section {
   line-height: 28px; /* 175% */
 }
 
-.download-cv{
+.download-cv {
   margin-top: 69px;
   text-align: center;
 }
 
-footer{
+/* Footer Styles*/
+footer {
   margin-top: 130px;
-  padding-top: 130px;
-  background: #FFF8F3;
+  padding: 130px 230px;
+  background: #fff8f3;
   display: flex;
   gap: 117px;
+  justify-content: space-around;
 }
 
-.message-form label{
+.message-form label {
   display: block;
 }
 
+.connect-title {
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.connect-description {
+  color: var(--Dark-02, #474747);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.message-title {
+  color: var(--Dark-01, #181818);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.message-form input {
+  border-radius: 5px;
+  border: 0px;
+  background: var(--White-Color, #fff);
+  width: 461px;
+  height: 64px;
+  margin-top: 24px;
+}
+
+.message-form textarea {
+  border-radius: 5px;
+  border: 0px;
+  background: var(--White-Color, #fff);
+  width: 461px;
+  height: 180px;
+  margin-top: 24px;
+}
+
+.message-form input[type="submit"] {
+  background: #fd6e0a;
+  width: 150px;
+  height: 64px;
+  border-radius: 5px;
+  border: 0px;
+  color: var(--White-Color, #fff);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.message-form ::placeholder {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  padding-left: 30px;
+}
