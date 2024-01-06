@@ -109,8 +109,7 @@ header .banner {
 /*main section styles*/
 
 main section {
-  margin: 130px 230px 0px 230px;
-  
+  margin: 130px 200px 0px 200px;
 }
 
 /*about section styles*/
@@ -202,11 +201,53 @@ main section {
   padding: 30px;
 }
 
-
 .skill-description {
-  
   color: var(--Dark-03, #757575);
   font-weight: 400;
   line-height: 28px; /* 175% */
-  
+}
+
+/* Resume section styles*/
+
+.resume-summary > h3 {
+  color: var(--Dark-01, #181818);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+  padding-top: 110px;
+}
+
+.resume-head {
+  color: var(--Dark-02, #474747);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.resume-item-title {
+  color: var(--Dark-02, #474747);
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.resume-item-institute {
+  color: var(--Dark-03, #757575);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.resume-item-description {
+  color: var(--Dark-03, #757575);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.resume-summary .btn-primary{
+  margin-top: 69px;
+  align-content:
 }
