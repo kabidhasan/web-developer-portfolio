@@ -247,7 +247,20 @@ main section {
   line-height: 28px; /* 175% */
 }
 
-.resume-summary .btn-primary{
+.download-cv{
   margin-top: 69px;
-  align-content:
+  text-align: center;
 }
+
+footer{
+  margin-top: 130px;
+  padding-top: 130px;
+  background: #FFF8F3;
+  display: flex;
+  gap: 117px;
+}
+
+.message-form label{
+  display: block;
+}
+
